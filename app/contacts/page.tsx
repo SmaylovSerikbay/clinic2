@@ -68,7 +68,7 @@ export default function Contacts() {
                       </div>
                       <div>
                         <div className="font-semibold">Email</div>
-                        <div className="text-foreground/70">clinic@example.com</div>
+                        <div className="text-foreground/70">ica_buh@mail.ru</div>
                         <div className="text-sm text-foreground/60">Ответим в течение 2 часов</div>
                       </div>
                     </div>
@@ -88,7 +88,9 @@ export default function Contacts() {
                       </div>
                       <div>
                         <div className="font-semibold">WhatsApp</div>
-                        <div className="text-foreground/70">+7 707 070 00 77</div>
+                        <a href="https://wa.me/87026982336" target="_blank" rel="noopener noreferrer" className="text-foreground/70 hover:text-primary transition-colors">
+                          8 702 698 23 36
+                        </a>
                         <div className="text-sm text-foreground/60">Быстрые ответы на вопросы</div>
                       </div>
                     </div>
@@ -114,12 +116,7 @@ export default function Contacts() {
                                  </div>
                                </div>
                     </div>
-                    <div className="rounded-2xl border border-border p-6">
-                      <div className="text-lg font-semibold">Экстренная помощь</div>
-                                             <div className="mt-2 text-sm text-foreground/70">
-                         При острых состояниях звоните по телефону +7 (778) 906-40-60. Врач дежурной службы проконсультирует и при необходимости примет вас вне графика.
-                       </div>
-                    </div>
+
                   </div>
                 </div>
               </div>
