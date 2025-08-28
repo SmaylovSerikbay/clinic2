@@ -18,8 +18,9 @@ export default function Contacts() {
                     International Clinic of Asia
                   </h1>
                   <p className="mt-6 text-base leading-7 text-foreground/70 sm:text-lg md:max-w-xl">
-                    Товарищество с ограниченной ответственностью &ldquo;International Clinic of Asia&rdquo; – многопрофильный медицинский центр в г. Астана. 
-                    Свяжитесь с нами любым удобным способом. Удобное расположение в центре города с отличной транспортной доступностью. Бесплатная парковка и комфортные условия для посещения.
+                    Международный медицинский центр &ldquo;International Clinic of Asia&rdquo; – многопрофильный медицинский центр в г. Астана. 
+                    Клиника предлагает широкий спектр медицинских услуг: консультации специалистов, диагностические исследования, 
+                    дневной стационар, медосмотры и оформление справок. Оснащена современным оборудованием.
                   </p>
                   <div className="mt-8 flex flex-col gap-3 sm:flex-row">
                     <Link href="#map" className="rounded-xl bg-black px-6 py-3 text-center text-white shadow-sm transition-colors hover:bg-black/90">
@@ -77,7 +78,7 @@ export default function Contacts() {
                                </div>
                                <div>
                                  <div className="font-semibold">Адрес</div>
-                                 <div className="text-foreground/70">г. Астана, ул. Мәскеу, 11А, 010000</div>
+                                 <div className="text-foreground/70">Казахстан, г. Астана, улица Мәскеу, дом 11А, 010000</div>
                                  <div className="text-sm text-foreground/60">Центр города</div>
                                </div>
                              </div>
@@ -101,11 +102,11 @@ export default function Contacts() {
                                                      <div className="mt-2 space-y-2 text-sm text-foreground/70">
                                  <div className="flex justify-between">
                                    <span>Понедельник - Пятница</span>
-                                   <span className="font-medium">08:30 - 17:30</span>
+                                   <span className="font-medium">08:00 - 17:00</span>
                                  </div>
                                  <div className="flex justify-between">
                                    <span>Суббота</span>
-                                   <span className="font-medium">08:30 - 13:00</span>
+                                   <span className="font-medium">08:00 - 13:00 (рентгенологический/флюорографический кабинет)</span>
                                  </div>
                                  <div className="flex justify-between">
                                    <span>Воскресенье</span>
@@ -141,7 +142,7 @@ export default function Contacts() {
                         </div>
                         <div>
                                                      <div className="text-lg font-semibold">Основной адрес</div>
-                           <div className="text-foreground/70">г. Астана, ул. Мәскеу, 11А, 010000</div>
+                           <div className="text-foreground/70">Казахстан, г. Астана, улица Мәскеу, дом 11А, 010000</div>
                          </div>
                        </div>
                        <div className="text-sm text-foreground/60">

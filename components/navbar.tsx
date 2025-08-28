@@ -99,28 +99,22 @@ export default function Navbar({ isMenuOpen, onClose }: NavbarProps) {
             {/* Контактная информация */}
             <div>
               <p className="text-sm font-medium text-foreground/80">
-                Запись и консультация по телефонам:
+                Запись и консультация по телефону:
               </p>
               <div className="mt-2 space-y-1">
                 <a
-                  href="tel:+77172490384"
+                  href="tel:87026982336"
                   className="block text-sm font-semibold text-primary underline"
                 >
-                  +7 (7172) 49-03-84
-                </a>
-                <a
-                  href="tel:+77789064060"
-                  className="block text-sm font-semibold text-primary underline"
-                >
-                  +7 (778) 906-40-60
+                  8 702 698 23 36
                 </a>
               </div>
             </div>
             
             {/* Адрес и время работы */}
             <div className="text-xs text-foreground/60">
-              <p>г. Астана, ул. Мәскеу, 11А</p>
-              <p>Пн-Пт: 08:30–17:30, Сб: 08:30–13:00</p>
+              <p>Казахстан, г. Астана, улица Мәскеу, дом 11А</p>
+              <p>Пн-Пт: 08:00–17:00, Сб: 08:00–13:00 (рентгенологический/флюорографический кабинет)</p>
             </div>
             
             {/* Кнопка записи */}

@@ -6,17 +6,16 @@ export default function Footer() {
       <div className="container grid gap-10 pb-12 pt-12 text-sm text-foreground sm:grid-cols-2 lg:grid-cols-4">
         <div>
           <h4 className="mb-4 text-base font-semibold">О клинике</h4>
-                     <p className="text-foreground/70">Товарищество с ограниченной ответственностью &ldquo;International Clinic of Asia&rdquo; – многопрофильный медицинский центр в г. Астана.</p>
+                     <p className="text-foreground/70">Международный медицинский центр &ldquo;International Clinic of Asia&rdquo; – многопрофильный медицинский центр в г. Астана.</p>
         </div>
         <div>
           <h4 className="mb-4 text-base font-semibold">Контакты</h4>
-          <ul className="space-y-1 text-foreground/80">
-            <li>+7 (7172) 49-03-84</li>
-            <li>+7 (778) 906-40-60</li>
-            <li>Пн-Пт: 08:30–17:30</li>
-            <li>Сб: 08:30–13:00</li>
-            <li>г. Астана, ул. Мәскеу, 11А</li>
-          </ul>
+                     <ul className="space-y-1 text-foreground/80">
+             <li>8 702 698 23 36</li>
+             <li>Пн-Пт: 08:00–17:00</li>
+             <li>Сб: 08:00–13:00 (рентгенологический/флюорографический кабинет)</li>
+             <li>Казахстан, г. Астана, улица Мәскеу, дом 11А</li>
+           </ul>
         </div>
         <div>
           <h4 className="mb-4 text-base font-semibold">Пациентам</h4>

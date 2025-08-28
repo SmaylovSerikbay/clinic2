@@ -26,15 +26,15 @@ export default function Header() {
             <div className="flex items-center gap-6">
               <div className="flex items-center gap-2">
                 <Phone className="h-3 w-3" />
-                <span>+7 (7172) 49-03-84</span>
+                                 <span>8 702 698 23 36</span>
               </div>
               <div className="hidden sm:flex items-center gap-2">
                 <MapPin className="h-3 w-3" />
-                <span>г. Астана, ул. Мәскеу, 11А</span>
+                                 <span>Казахстан, г. Астана, улица Мәскеу, дом 11А</span>
               </div>
               <div className="hidden lg:flex items-center gap-2">
                 <Clock className="h-3 w-3" />
-                <span>Пн-Пт: 08:30–17:30</span>
+                                 <span>Пн-Пт: 08:00–17:00</span>
               </div>
             </div>
             <div className="flex items-center gap-4">
