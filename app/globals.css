@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Base surface */
+    --background: 0 0% 100%; /* #ffffff */
+    --foreground: 222.2 84% 4.9%;
+
+    /* Cards and popovers */
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+
+    /* Brand colors (medical) */
+    --primary: 204 86% 56%; /* #2a9df4 soft blue */
+    --primary-foreground: 210 40% 98%;
+    --secondary: 173 100% 37%; /* #00bfa6 turquoise */
+    --secondary-foreground: 210 40% 98%;
+
+    /* Neutrals */
+    --muted: 0 0% 96%; /* #f5f5f5 */
+    --muted-foreground: 215.4 16.3% 36.9%;
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 210 20% 92%;
+    --input: 210 20% 92%;
+    --ring: 204 86% 56%;
+
+    /* Charts (keep reasonable defaults) */
+    --chart-1: 204 86% 56%;
+    --chart-2: 173 100% 37%;
+    --chart-3: 197 37% 24%;
+    --chart-4: 43 74% 66%;
+    --chart-5: 27 87% 67%;
+
+    /* Rounded XL */
+    --radius: 1rem; /* 16px */
+
+    /* Elevation tints for glows */
+    --glow-blue: 204 86% 56% / 0.35; /* rgba(42,157,244,0.35) */
+    --glow-teal: 173 100% 37% / 0.35; /* rgba(0,191,166,0.35) */
+  }
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 204 86% 56%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 173 100% 37%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 204 86% 56%;
+    --chart-1: 220 70% 50%;
+    --chart-2: 160 60% 45%;
+    --chart-3: 30 80% 55%;
+    --chart-4: 280 65% 60%;
+    --chart-5: 340 75% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  html,
+  body {
+    @apply h-full;
+  }
+  body {
+    @apply bg-background font-sans text-foreground;
+  }
+}
+
+.wrapper {
+  @apply flex min-h-full flex-col overflow-hidden supports-[overflow:clip]:overflow-clip [&>main]:flex-auto;
+}
+.container {
+  @apply mx-auto max-w-[85.75rem] px-4;
+}
+
+.swiper-pagination-bullets {
+  @apply flex items-center justify-center gap-4;
+}
+
+.swiper-pagination-bullets .swiper-pagination-bullet {
+  @apply inline-block size-4 cursor-pointer rounded-full bg-[#d9d9d9];
+}
+
+.swiper-pagination-bullets
+  .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  @apply size-5 bg-[#2a9df4];
+}
+
+.testimonials .swiper-slide {
+  @apply !scale-90 transition-transform duration-300;
+}
+
+.testimonials .swiper-slide.swiper-slide-active {
+  @apply !scale-105;
+}
