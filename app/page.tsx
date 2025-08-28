@@ -17,11 +17,11 @@ export default function Home() {
                   <h1 className="text-4xl font-extrabold tracking-tight sm:text-6xl md:text-7xl">
                     International Clinic of Asia
                   </h1>
-                  <p className="mt-6 text-base leading-7 text-foreground/70 sm:text-lg md:max-w-xl">
-                    Товарищество с ограниченной ответственностью "International Clinic of Asia" – многопрофильный медицинский центр в г. Астана. 
-                    Современная клиника полного цикла: диагностика, консультации, анализы и лечение. 
-                    Честные цены, опытные врачи, продуманный сервис.
-                  </p>
+                                     <p className="mt-6 text-base leading-7 text-foreground/70 sm:text-lg md:max-w-xl">
+                     Товарищество с ограниченной ответственностью &ldquo;International Clinic of Asia&rdquo; – многопрофильный медицинский центр в г. Астана. 
+                     Современная клиника полного цикла: диагностика, консультации, анализы и лечение. 
+                     Честные цены, опытные врачи, продуманный сервис.
+                   </p>
                   <div className="mt-8 flex flex-col gap-3 sm:flex-row">
                     <Link href="#book" className="rounded-xl bg-black px-6 py-3 text-center text-white shadow-sm transition-colors hover:bg-black/90">
                       Записаться на прием
