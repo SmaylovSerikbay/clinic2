@@ -54,11 +54,10 @@ export default function Contacts() {
                                  <Image src="/contacts/icons/contacts.png" alt="Телефон" width={20} height={20} className="h-5 w-5" />
                                </div>
                                <div>
-                                 <div className="font-semibold">Телефоны</div>
-                                 <div className="text-foreground/70">+7 (7172) 49-03-84</div>
-                                 <div className="text-foreground/70">+7 (778) 906-40-60</div>
-                                 <div className="text-foreground/70">+7 (777) 753-28-28</div>
-                                 <div className="text-foreground/70">+7 (702) 377-75-24</div>
+                                 <div className="font-semibold">Телефон</div>
+                                 <a href="tel:87026982336" className="text-foreground/70 hover:text-primary transition-colors">
+                                   8 702 698 23 36
+                                 </a>
                                  <div className="text-sm text-foreground/60">В рабочее время</div>
                                </div>
                              </div>
@@ -68,7 +67,9 @@ export default function Contacts() {
                       </div>
                       <div>
                         <div className="font-semibold">Email</div>
-                        <div className="text-foreground/70">ica_buh@mail.ru</div>
+                        <a href="mailto:ica_buh@mail.ru" className="text-foreground/70 hover:text-primary transition-colors">
+                          ica_buh@mail.ru
+                        </a>
                         <div className="text-sm text-foreground/60">Ответим в течение 2 часов</div>
                       </div>
                     </div>
